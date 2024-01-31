@@ -50,7 +50,7 @@ function App() {
       <Product productInfo={products[1]}></Product>
       <Product productInfo={products[2]}></Product>
       <Product productInfo={products[3]}></Product> */}
-{
+    {
       products.map((p)=>
       ( <Product size={100} productInfo={p}></Product>)
       )
